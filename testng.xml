@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="5">
+    <test verbose="2" preserve-order="true"
+          name="F:/CSE Related stuffs/SQA/Basic JAVA/Web Automation Projects/WebAutomation/src/test/java/testcases">
+        <classes>
+            <class name="testcases.TestHomePage">
+                <methods>
+                    <include name="testHomePageURL"/>
+                    <include name="testHomePageTitle"/>
+                </methods>
+            </class>
+<!--            <class name="testcases.TestLogin">-->
+<!--                <methods>-->
+<!--                    <include name="ValidCredentials"/>-->
+<!--                    <include name="InvalidCredentials"/>-->
+<!--                    <include name="InvalidEmailAndPass"/>-->
+<!--                    <include name="ValidEmailAndInvalidPass"/>-->
+<!--                    <include name="BlankEmailandPassField"/>-->
+<!--                    <include name="BlankEmailFieldandPass"/>-->
+<!--                    <include name="EmailandBlankPassField"/>-->
+<!--                    <include name="testLoginWithInvalidCredentials"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+        </classes>
+    </test>
+</suite>
